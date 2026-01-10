@@ -7,7 +7,7 @@ export default function Navbar() {
     return (
     <div className="flex items-center justify-between px-6 py-4 shadow bg-white dark:bg-gray-800">
   
-     <h1 className=" text-2xl font-bold text-indigo-600 align text-center">SkillForge</h1>
+     <h1 className=" text-2xl font-bold text-indigo-600">SkillForge</h1>
      
       <div className="space-x-4">
         <button 
