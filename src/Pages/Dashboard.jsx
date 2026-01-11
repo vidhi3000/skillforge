@@ -2,8 +2,8 @@
 import { useEffect, useState } from "react";
 import Navbar from "../component/Navbar";
 import SkillCard from "../component/SkillCard";
-import StatCard from "../component/StateCard";
-import AddSkillDialog from "./AddskillDialog";
+import StateCard from "../component/StateCard";
+import AddskillDialog from "./Pages/AddskillDialog";
 import { Target, CheckCircle2, Activity, TrendingUp } from "lucide-react";
 export default function Dashboard() {
   const [skills, setSkills] = useState(
@@ -59,32 +59,32 @@ const updateProgress = (id, newProgress) => {
         <p className="text-muted-foreground text-lg max-w-2xl mx-auto mb-8">
           Build expertise, one milestone at a time. Track your progress and achieve your learning goals.
         </p>
-        <AddSkillDialog onAdd={addSkill} />
+        <AddskillDialog onAdd={addSkill} />
       </section>
 
 {/* Statistics Dashboard */}
       {totalSkills > 0 && (
         <section className="container mx-auto px-4 pb-8">
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
-            <StatCard
+            <StateCard
               title="Total Skills"
               value={totalSkills}
               icon={Target}
               description="Skills being tracked"
             />
-            <StatCard
+            <StateCard
               title="Completed"
               value={completedSkills}
               icon={CheckCircle2}
               description="100% mastered"
             />
-            <StatCard
+            <StateCard
               title="In Progress"
               value={inProgressSkills}
               icon={Activity}
               description="Currently learning"
             />
-            <StatCard
+            <StateCard
               title="Avg Progress"
               value={`${overallProgress}%`}
               icon={TrendingUp}

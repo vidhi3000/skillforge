@@ -5,7 +5,7 @@ import { Label } from "@/component/ui/label";
 import { Input } from "@/component/ui/input";
 import { Plus } from "lucide-react";
 
-export default function AddSkillDialog({ onAdd }) {
+export default function AddskillDialog({ onAdd }) {
   const [open, setOpen] = useState(false);
   const [name, setName] = useState("");
   const [goal, setGoal] = useState("");
