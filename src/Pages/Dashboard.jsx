@@ -1,9 +1,9 @@
 
 import { useEffect, useState } from "react";
-import Navbar from "../Components/Navbar";
-import SkillCard from "../Components/SkillCard";
-import StatCard from "../Components/StateCard";
-import AddSkillDialog from "./AddSkillDialog";
+import Navbar from "../component/Navbar";
+import SkillCard from "../component/SkillCard";
+import StatCard from "../component/StateCard";
+import AddSkillDialog from "./AddskillDialog";
 import { Target, CheckCircle2, Activity, TrendingUp } from "lucide-react";
 export default function Dashboard() {
   const [skills, setSkills] = useState(
