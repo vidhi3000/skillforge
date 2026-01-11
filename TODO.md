@@ -1,7 +1,4 @@
-# TODO: Correct CSS in src/index.css
-
-## Steps to Complete:
-- [ ] Update :root in @layer base to include standard Shadcn/ui CSS variables for neutral base color (e.g., --background, --foreground, --card, --card-foreground, etc.)
-- [ ] Fix the standalone * selector to apply @apply border-border;
-- [ ] Combine the two @layer base blocks into a single block for better organization
-- [ ] Verify the updated CSS file for syntax correctness and ensure it aligns with Shadcn/ui conventions
+- [x] Rename src/component directory to src/components
+- [x] Update components.json alias from "@/component" to "@/components"
+- [x] Update import in src/Pages/Dashboard.jsx from "../component/StateCard" to "../components/StateCard"
+- [x] Verify the changes and check for any other references
