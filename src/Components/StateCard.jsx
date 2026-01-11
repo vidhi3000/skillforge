@@ -1,6 +1,7 @@
 
 import { Card, CardContent } from "@/components/ui/card";
 
+// eslint-disable-next-line no-unused-vars
 export default function StateCard({ title, value, description, icon: Icon }) {
   return (
     <Card className="hover:shadow-md transition-shadow">
