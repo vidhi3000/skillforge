@@ -1,4 +1,0 @@
-- [x] Rename src/component directory to src/components
-- [x] Update components.json alias from "@/component" to "@/components"
-- [x] Update import in src/Pages/Dashboard.jsx from "../component/StateCard" to "../components/StateCard"
-- [x] Verify the changes and check for any other references
