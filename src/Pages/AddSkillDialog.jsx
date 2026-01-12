@@ -1,8 +1,8 @@
 import React, { useState } from "react";
-import { Dialog, DialogContent, DialogDescription, DialogHeader, DialogTitle, DialogTrigger } from "@/component/ui/dialog";
-import { Button } from "@/component/ui/button";
-import { Label } from "@/component/ui/label";
-import { Input } from "@/component/ui/input";
+import { Dialog, DialogContent, DialogDescription, DialogHeader, DialogTitle, DialogTrigger } from "@/components/dialog";
+import { Button } from "@/components/button";
+import { Label } from "@/components/label";
+import { Input } from "@/components/input";
 import { Plus } from "lucide-react";
 
 export default function AddskillDialog({ onAdd }) {
