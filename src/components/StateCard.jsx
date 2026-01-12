@@ -1,4 +1,4 @@
-import { Card, CardContent } from "./card";
+import { Card, CardContent } from "@/components/card";
 
 // eslint-disable-next-line no-unused-vars
 export default function StateCard({ title, value, description, icon: Icon }) {
